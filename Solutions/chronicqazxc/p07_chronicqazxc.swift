@@ -5,7 +5,6 @@
 //  Created by Wayne Hsiao on 2018/8/7.
 //
 
-import Foundation
 import NinetyNineSwiftProblems
 
 extension List {
