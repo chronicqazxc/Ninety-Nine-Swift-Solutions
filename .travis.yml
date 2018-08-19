@@ -8,6 +8,7 @@ matrix:
     - os: osx
       osx_image: xcode9.4
 
+bundler_args: "--path vendor/bundle"
 install:
   - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then eval "$(curl -sL https://swiftenv.fuller.li/install.sh)"; fi
   - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then swiftenv install 4.1.2; fi
