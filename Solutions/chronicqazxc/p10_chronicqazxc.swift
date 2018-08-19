@@ -12,7 +12,7 @@ extension List where T: Equatable {
 
         var current = pack()
         var result = [(current.value.length, current.value.last)]
-        
+
         while let nextItem = current.nextItem {
             result.append((nextItem.value.length, nextItem.value.last))
             current = nextItem
